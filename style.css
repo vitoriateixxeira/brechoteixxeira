@@ -11,9 +11,11 @@ body {
     text-decoration: none;
     font-weight: bold;
     padding: 4px 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.botoestopo:hover{
+
+.botoestopo:hover {
     background-color: #d6eef7;
     color: #162749;
     border: 1px solid #d6eef7;
@@ -23,7 +25,8 @@ body {
     padding: 4px 8px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.botoestopo:active{
+
+.botoestopo:active {
     background-color: #074898;
     color: white;
     border: 1px solid #074898;
@@ -66,6 +69,8 @@ body {
     justify-content: center;
     color: white;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 
@@ -413,7 +418,7 @@ body {
 }
 
 #bottomhome {
-   background-color: #a5b5d5;
+    background-color: #a5b5d5;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -421,8 +426,84 @@ body {
     align-items: center;
     font-size: 1.5rem;
     border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+/*pagina sobre*/
+#containerincialpaginasobre {
+    border-radius: 16px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    background-image: url(imagens/fundosobre.jpg);
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cardinicialpaginasobre {
+
+    width: 600px;
+    height: 400px;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(6, 6, 81);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    font-weight: 600;
+
+
+}
+
+#cabecalhocontainer2 {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(20, 13, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.container2paginasobre {
+
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.cardvalorespaginasobre {
+
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin: 20px;
+    background-color: rgb(193, 217, 239);
+    color: rgb(6, 6, 81);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 1.7rem;
+    border-radius: 8px;
+}
+
+.cardvalorespaginasobre:hover {
+    color: rgb(193, 217, 239);
+    background-color: rgb(6, 6, 81);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#container3paginasobre{
+    border: 1px solid navy;
+}
+
 
 /*.img-conteudo2{
 
