@@ -164,7 +164,7 @@ body {
 /*classe para o botão dos cards*/
 .buttomcard {
     border-style: none;
-    padding: 4px 8px;
+    padding: 8px 12px;
     border-radius: 10px;
     background: #162749;
     color: #d6eef7;
@@ -500,11 +500,217 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-#container3paginasobre{
+
+#container3paginasobre {
     border: 1px solid navy;
 }
 
+/*pagina contato*/
+#containerpaginacontato {
+    height: 200px;
+    border-radius: 8px;
+    background-image: url(imagens/fundocontatos.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    font-weight: bold;
+    color: #091276;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+
+}
+
+#containerpaginacontato:hover {
+    text-shadow: 2px 2px 6px #0c0b42;
+}
+
+#containerpaginacontatomeio {
+
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardpaginacontatomeio {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #abd2ed;
+    color: #091276;
+}
+
+.cardpaginacontatomeio:hover {
+    background-color: #091276;
+    color: #abd2ed;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.formataçãotextocardcontato {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*terceiro container pag contato*/
+#containerterceiropagcontato {
+    
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: #091276;
+border-radius: 16px;
+
+}
+
+#forticontainerterpc {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #0b179b;
+
+}
+
+#formcontainer3pc {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+text-align: center;
+width: 500px;
+
+}
+
+.listacontainer3pc {
+
+    list-style-type: none;
+    padding: 0%;
+    margin-top: 20px;
+}
+.tamanhoinputpc{
+    width: 500px;
+    border-radius: 8px;
+    height: 30px;
+    border: 2px dotted #0b179b;
+    margin: 10px 0px;
+}
+#textareapc{
+width: 500px;
+height: 100px;
+border-radius: 8px;
+border: 2px dashed #0b179b;
+margin: 10px 0px;
+}
+#submitcontainerpc{
+    color: #e2f1fc;
+    background-color: #0c0b42;
+    padding: 5px 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border-style: none;
+  
+}
+/*pagina produtos*/
+#barraprodutos{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+    
+
+}
+.linksbarraprodutos{
+    color: #060231;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 2px solid #060231;
+    padding: 0px 40px;
+
+}
+.linksbarraprodutos:hover{
+    text-decoration: underline;
+    color: #095597;
+   
+}
+.linksbarraprodutos:active{
+    color: #0c84ee;
+}
+.linksbarraprodutosoff{
+    color: #060231;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    padding: 0px 40px;
+
+}
+.linksbarraprodutosoff:hover{
+    text-decoration: underline;
+   
+}
+.linksbarraprodutosoff:active{
+    color: #0c84ee;
+}
+#segundocontainerprodutos{
+   
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcontainer2produtos{
+    float: left;
+    height: 400px;
+    width: 200px;
+    background-color: #c5dcf0;
+margin: 0px 20px;
+display: flex;
+flex-direction: column;
+border-radius: 16px;
+
+}
+.ajustarimgprodutos{
+    
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 200px;
+}
+.imgcontainer2produtos{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.listacontainer2produtos{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(17, 53, 53);
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
 /*.img-conteudo2{
 
 clear:both;
